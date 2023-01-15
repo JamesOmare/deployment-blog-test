@@ -1,5 +1,7 @@
 from website import create_app
-app = create_app()
+from website.config.config import Config
+
+app = create_app(Config)
 
 if __name__ == '__main__':
     app.run(port = 5005)
