@@ -1,2 +1,0 @@
-FLASK_APP=website
-FLASK_DEBUG=False
